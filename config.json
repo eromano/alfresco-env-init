@@ -1,0 +1,30 @@
+{
+  "content": {
+    "host": "http://yourenv.com",
+    "username": "admin",
+    "password": "admin"
+  },
+  "process": {
+    "host": "http://yourenv.com",
+    "username": "admin",
+    "password": "admin"
+  },
+  "provider": "BPM",
+  "users": [
+    {
+      "email": "batman@alfresco.com",
+      "lastName": "batman",
+      "firstName": "batman",
+      "password": "testTest$1",
+      "company": "Alfresco"
+    }
+  ],
+  "applications": [
+    {
+      "path": "./applications/app1.zip"
+    },
+    {
+      "path": "./applications/app2.zip"
+    }
+  ]
+}
