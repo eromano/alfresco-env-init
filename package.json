@@ -1,7 +1,7 @@
 {
   "name": "alfresco-env-creator",
-  "version": "0.0.1",
-  "description": "This project is able to create test users and other configuration on your CS ans PS",
+  "version": "0.0.2",
+  "description": "This project is able to create test users and other configuration on your CS ans PS and Identity",
   "author": "Eugenio Romano",
   "engines": {
     "node": "5.0.0"
@@ -11,12 +11,15 @@
     "url": "https://github.com/eromano/alfresco-env-creator.git"
   },
   "scripts": {
-    "start": "node src/main.js"
+    "start": "ts-node src/main.ts"
   },
   "dependencies": {
-    "alfresco-js-api-node": "2.4.0",
+    "@alfresco/js-api": "4.1.0",
     "colors": "^1.1.2",
-    "nconf": "^0.8.4"
+    "nconf": "^0.8.4",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.2"
   },
   "license": "MIT",
   "keywords": [
@@ -26,6 +29,7 @@
     "process service"
   ],
   "devDependencies": {
+    "@types/node": "^14.14.10",
     "commander": "^2.15.1"
   }
 }
