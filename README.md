@@ -11,6 +11,6 @@ To configure you need to edit the ***config.json***
 ### Contributors
 
 Contributor | GitHub profile |
---- | --- | ---
+--- | --- |
 Eugenio Romano  (Creator) | [eromano](https://github.com/eromano) |
 
